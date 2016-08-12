@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EC5745"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    tools:context="com.mrzk.myapplication.MainActivity">
+
+
+    <Button
+        android:text="开始"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_begin"/>
+    <Button
+        android:text="出错"
+        android:layout_toRightOf="@id/btn_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_error"/>
+
+    <com.mrzk.specialprolibrary.SpecialProgressBarView
+        android:id="@+id/ls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:startDrawable="@drawable/ic_file_upload_white_36dp"
+        app:endSuccessDrawable="@drawable/ic_done_white_36dp"
+        app:textSize="12sp"
+        app:textColorSuccess="#66A269"
+        app:textColorNormal="#491C14"
+        app:textColorError="#BC5246"
+        app:progressBarHeight="4dp"
+        app:progressBarBgColor="#491C14"
+        app:progressBarColor="#ffffff"
+        app:canReBackable="true"
+        app:canDragable="false"
+        />
+
+</RelativeLayout>

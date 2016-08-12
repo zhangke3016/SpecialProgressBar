@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpecialProgressBarStyle">
+        <attr name="textSize" format="dimension|reference"/><!-- 字体大小 -->
+        <attr name="textColorSuccess" format="color|reference"/><!-- 成功字体颜色 -->
+        <attr name="textColorNormal" format="color|reference"/><!-- 默认进度字体颜色 -->
+        <attr name="textColorError" format="color|reference"/><!-- 错误失败字体颜色 -->
+        <attr name="startDrawable" format="integer|reference"/><!-- 内部图片 -->
+        <attr name="endSuccessDrawable" format="integer|reference"/><!-- 成功图片 -->
+        <attr name="progressBarHeight" format="dimension|reference"/><!--进度条高度 -->
+        <attr name="progressBarBgColor" format="color|reference"/><!--进度条背景颜色 -->
+        <attr name="progressBarColor" format="color|reference"/><!--进度条颜色 -->
+        <attr name="canReBackable" format="boolean|reference"/><!-- 是否成功后返回-->
+        <attr name="canDragable" format="boolean|reference"/><!-- 是否可以拖拽-->
+    </declare-styleable>
+</resources>
