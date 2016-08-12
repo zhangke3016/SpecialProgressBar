@@ -7,7 +7,7 @@
 
 ![SpecialProgressBar](gif/screen.png)
 
-![SpecialProgressBar](gif/screen.gif)
+![SpecialProgressBar](gif/screen2.gif)
 
 ![SpecialProgressBar](gif/screen1.gif)
 ---
