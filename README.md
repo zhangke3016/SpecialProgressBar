@@ -6,7 +6,9 @@
 #Preview
 
 ![SpecialProgressBar](gif/screen.png)
+
 ![SpecialProgressBar](gif/screen.gif)
+
 ![SpecialProgressBar](gif/screen1.gif)
 ---
 ###Usage xml
