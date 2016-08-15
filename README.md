@@ -11,7 +11,7 @@
 
 ![SpecialProgressBar](gif/screen1.gif)
 ---
-###Usage xml
+#Usage xml
 ```
   <com.mrzk.specialprolibrary.SpecialProgressBarView
         android:id="@+id/ls"
@@ -31,7 +31,7 @@
         app:canDragable="false"
         />
 ```
-###java
+#java
 
 ```
             ls = (SpecialProgressBarView) findViewById(R.id.ls);
