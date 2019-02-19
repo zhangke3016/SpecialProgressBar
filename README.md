@@ -1,9 +1,9 @@
-#SpecialProgressBar
+# SpecialProgressBar
 >A Special Progress Bar for Android
 
 >创意来自[**Dribbble**](https://dribbble.com)
 
-#Preview
+# Preview
 
 ![SpecialProgressBar](gif/screen.png)
 
@@ -11,7 +11,7 @@
 
 ![SpecialProgressBar](gif/screen1.gif)
 ---
-#Usage xml
+# Usage xml
 ```
   <com.mrzk.specialprolibrary.SpecialProgressBarView
         android:id="@+id/ls"
@@ -31,7 +31,7 @@
         app:canDragable="false"
         />
 ```
-#java
+# java
 
 ```
             ls = (SpecialProgressBarView) findViewById(R.id.ls);
@@ -77,8 +77,8 @@
         });
 ``` 
 
-###About me
----
+### About me
+
 An Android Developer in ZhengZhou.
 
 【[**我的简书地址**](http://www.jianshu.com/users/3c751e06dc32/latest_articles)】
@@ -86,9 +86,9 @@ An Android Developer in ZhengZhou.
 【[**我的CSDN地址**](http://blog.csdn.net/zhangke3016)】
 
 ---
-###License
-=======
-Copyright  2016  zhangke
+### License
+
+Copyright  2019  zhangke
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
